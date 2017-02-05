@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="chatbot.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.12.4.min.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/faqbot.js"></script>
+</head>
+<body>
+    <div id="mainDiv">
+        <div class="fullpane">
+            <div class="fullpane">
+                <div class="halftab">
+                    <img src="images/federalbank.PNG" class="halfimg" />
+                </div>
+                <div class="halftab">
+                    <img src="images/hdfc.PNG" class="halfimg" />
+                </div>
+            </div>
+            <div style="height:10px;"></div>
+            <div class="fullpane">
+                <div class="halftab">
+                    <img src="images/icici.PNG" class="halfimg" />
+                </div>
+                <div class="halftab">
+                    <img src="images/sib.PNG" class="halfimg" />
+                </div>
+            </div>
+        </div>
+        <div id="chat-bot-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading" id="accordion">
+                                <span class="glyphicon glyphicon-comment"></span> Chat
+                                <div class="btn-group pull-right">
+                                    <a type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="panel-collapse collapse" id="collapseOne">
+                                <div class="panel-body" id="chat-box-scroll-panel">
+                                    <ul class="chat" id="chat-main-box">
+                                       
+                                        
+                                    </ul>
+                                    <div id="scroll-to-div"></div>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="input-group">
+                                        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-warning btn-sm" id="btn-chat" onclick="userrequest();">
+                                                Send
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

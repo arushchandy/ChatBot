@@ -1,0 +1,67 @@
+{
+    "staticClassifiers" : [
+        {
+            "class" : "Hello",
+            "responsePrefix" : "Hello welcome to our virtual assistant !",
+            "responseLink" : "",
+            "responseLinkText" : "",
+            "responseSuffix" : "",
+            "responseSuffixLinks" : [ ]
+        } ,
+        {
+            "class" : "FDInfo",
+            "responsePrefix" : "FD info value",
+            "responseLink" : "",
+            "responseLinkText" : "",
+            "responseSuffix" : "",
+            "responseSuffixLinks" : [
+                "Click To know about Fixed Deposit Rates and advantages",
+                "To know about Fixed Deposit tenures"
+            ]
+        }
+        ,
+        {
+            "class" : "RDInfo",
+            "responsePrefix" : "RD info value",
+            "responseLink" : "",
+            "responseLinkText" : "",
+            "responseSuffix" : "",
+            "responseSuffixLinks" : [
+                "Suffix Links 1",
+                "Suffix Linnks 2"
+            ]
+            
+        }
+        ,
+        {
+            "class" : "FDRates",
+            "responsePrefix" : "Fixed Deposit rates are available at an exciting rate, to help our customers save up for a brighter future. \n Please find the details at the below link ",
+            "responseLink" : "http://www.federalbank.co.in/deposit-rate",
+            "responseLinkText" : "Fixed Depost Rates",
+            "responseSuffix" : "",
+            "responseSuffixLinks" : []
+            
+        }
+         ,
+        {
+            "class" : "FDTenures",
+            "responsePrefix" : "FD Tenure ",
+            "responseLink" : "",
+            "responseLinkText" : "",
+            "responseSuffix" : "",
+            "responseSuffixLinks" : []
+            
+        },
+        {
+            "class" : "unknown",
+            "responsePrefix" : "Sorry , Please be more specific about your need",
+            "responseLink" : "",
+            "responseLinkText" : "",
+            "responseSuffix" : "",
+            "responseSuffixLinks" : []
+            
+        }
+        
+    ]
+
+}
